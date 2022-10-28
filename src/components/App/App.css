@@ -1,0 +1,37 @@
+
+.container {
+  width: 30%;
+  margin: auto;
+}
+
+.enter {
+  height: 30px;
+  margin-bottom: 10px;
+} 
+
+.enter input{
+  width: 70%;
+  outline: none;
+  border: 1px solid #aaa;
+  height: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.enter button {
+  height: 100%;
+  width: 29%;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+.enter button:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.enter button:active {
+  background-color: #aaa;
+}
